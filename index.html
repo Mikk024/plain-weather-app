@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="flex justify-center my-16">
+        <div class="weather-card rounded-md bg-white p-10">
+            <div class="space-x-4">
+                <i class="fa-solid fa-location-dot text-4xl"></i>
+                <input type="text" id="inputText" placeholder="Location" class="text-center w-3/4 border-b text-2xl focus:outline-none focus:ring-0">
+                <button id="button"><i class="fa-solid fa-magnifying-glass text-xl bg-blue-200 p-2 rounded-full"></i></button>
+                <div class="mt-32" id="weatherCard" class="flex justify-center transition duration-500 ease-in-out space-y-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/665d94e5f3.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
